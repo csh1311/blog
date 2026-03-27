@@ -1,0 +1,58 @@
+<aside id="article-toc" role="navigation" class="fixed">
+<div id="article-toc-inner" style="overflow-y: auto;scrollbar-width: none;">
+    <strong class="sidebar-title">目录</strong>
+    <%- toc(page.content, { class: 'toc', list_number: false }) %>
+</div>
+</aside>
+
+<style>
+    #article-toc-inner:after,#article-toc-inner:before,.inner:before{
+        content: "";
+        display: table;
+    }
+    #article-toc-inner:after,.inner:after{
+        clear: both;
+    }
+    @media screen{
+        #article-toc-innerm,.inner{
+            padding: 0 20px;
+        }
+    }
+#article-toc{
+    display: none;
+    float: right;
+    width: 25%;
+    margin-right: -220px;
+    opacity: .8;
+}
+@media screen and (min-width:769px) {
+    #article-toc{
+        display: block;
+    }
+}
+#article-toc.fixed{
+    position: absolute;
+    top:0;
+    bottom:0;
+    right: 220px;
+    padding-top: 55px;
+
+}
+.fixed #article-toc-inner{
+    position: fixed;
+    width: 260px;
+    top: 0;
+    bottom: 0;
+    padding-top: 55px;
+}
+#article-toc-inner ol {
+    margin-left: -5px;
+}
+
+#article-toc-inner::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+li{
+    list-style-type: none;
+}
+</style>
