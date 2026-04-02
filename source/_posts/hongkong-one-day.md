@@ -1,5 +1,6 @@
 ---
 title: 香港一日游
+author: canlit
 date: 2026-03-30 10:00:00
 categories:
   - Travel
@@ -8,8 +9,8 @@ tags:
   - Itinerary
   - One-Day Trip
 description: 一次从深圳出发、以地铁与公交完成的香港一日速写，记录交通、餐饮与细节感受。
-cover: https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=960&q=80
-top_img: https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=1920&q=80
+cover: /img/post-hongkong.jpg
+top_img: /img/post-hongkong.jpg
 ---
 
 > 简短摘要：心情从期待到满足。服务员普遍会英/粤/普沟通顺畅；移动支付“一碰即付”极方便；街面几乎没有电动车，交通秩序良好且左侧行驶需要适应。
