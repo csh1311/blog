@@ -1,0 +1,49 @@
+# Butterfly 主题覆盖配置（旅行 / 游记向）
+# 文档：https://butterfly.js.org/posts/21cfbf15/
+
+avatar:
+  img: /img/head.jpg
+  effect: false
+
+menu:
+  首页: / || fas fa-home
+  旅行: /categories/旅行/ || fas fa-plane
+  归档: /archives/ || fas fa-archive
+
+# 首页与默认头图（使用 source/img 本地资源，避免部署后外链 Unsplash 被墙/拦截导致只剩蓝色底）
+index_img: /img/hero-index.jpg
+default_top_img: /img/hero-default.jpg
+
+category_per_img:
+  旅行: /img/hero-category-travel.jpg
+
+# effect: true = 静态副标题；false = 多行打字机轮换（见主题源码 subtitle.pug）
+subtitle:
+  enable: true
+  effect: true
+  sub:
+    - 旅行手记 · 放慢脚步，记录路途与心情。
+
+search:
+  use: local_search
+  local_search:
+    preload: false
+
+post_meta:
+  page:
+    tags: false
+    categories: true
+
+cover:
+  index_enable: true
+  default_cover:
+    - /img/hero-default.jpg
+
+# 首页文章版式：左图右文交替，适合游记封面
+index_layout: 3
+index_post_content:
+  method: 2
+  length: 280
+
+pjax:
+  enable: false
