@@ -4,17 +4,17 @@
 
 # Site
 title: cc
-subtitle: ''
+subtitle: 旅行手记
 description: ''
 keywords:
 author: John Doe
-language: en
+language: zh-CN
 timezone: ''
 toc: true
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.shanhui.xyz
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -69,6 +69,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  Travel: 旅行
 tag_map:
 
 # Metadata elements
@@ -98,7 +99,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: argon
+theme: butterfly
+
+# hexo-generator-search（Butterfly 本地搜索）
+search:
+  path: search.xml
+  field: post
+  content: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -107,6 +114,3 @@ deploy:
   repository: git@github.com:csh1311/csh1311.github.io.git
   branch: main
   message: message
-
-font:  # 主题字体配置
-  font_size: 100px        # 全局字号
