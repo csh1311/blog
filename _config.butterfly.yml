@@ -47,3 +47,8 @@ index_post_content:
 
 pjax:
   enable: false
+
+# 游记版式样式（香港一日游等）
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/hk-trip.css">

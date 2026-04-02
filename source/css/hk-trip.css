@@ -1,0 +1,81 @@
+/* 香港游记文章内版式（figure.hk-shot） */
+.hk-trip-lead {
+  font-size: 1.06rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.hk-trip-meta table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.5rem;
+  font-size: 0.95rem;
+}
+
+.hk-trip-meta th,
+.hk-trip-meta td {
+  border: 1px solid var(--line-color);
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+}
+
+.hk-trip-meta th {
+  background: rgba(128, 128, 128, 0.08);
+  font-weight: 600;
+  width: 6.5rem;
+  white-space: nowrap;
+}
+
+.hk-trip-section {
+  margin: 2rem 0;
+}
+
+.hk-trip-section h3 {
+  margin-top: 0;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--line-color);
+}
+
+figure.hk-shot {
+  margin: 1.35rem auto;
+  max-width: 720px;
+  text-align: center;
+}
+
+figure.hk-shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+figure.hk-shot figcaption {
+  display: block;
+  width: 100%;
+  margin-top: 0.6rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--sec-text-color);
+}
+
+/* 避免主题正文左对齐覆盖图注 */
+#article-container figure.hk-shot figcaption,
+#article-container.post-content figure.hk-shot figcaption {
+  text-align: center !important;
+}
+
+.hk-trip-timeline ul {
+  margin: 0.25rem 0 0;
+  padding-left: 1.25rem;
+}
+
+[data-theme="dark"] figure.hk-shot img {
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+}

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9be446cd-a5ef-43b8-9977-3dc72b8965be" name="Changes" comment="更新代码" />
+    <list default="true" id="9be446cd-a5ef-43b8-9977-3dc72b8965be" name="Changes" comment="更换">
+      <change beforePath="$PROJECT_DIR$/_config.butterfly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.butterfly.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/hongkong-one-day.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/hongkong-one-day.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +66,7 @@
       <updated>1774496634497</updated>
       <workItem from="1774496635526" duration="16076000" />
       <workItem from="1774925402826" duration="3812000" />
-      <workItem from="1774969324419" duration="3788000" />
+      <workItem from="1774969324419" duration="4345000" />
     </task>
     <task id="LOCAL-00001" summary="香港一日游">
       <option name="closed" value="true" />
@@ -97,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775099900772</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更换">
+      <option name="closed" value="true" />
+      <created>1775100242229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775100242229</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +119,7 @@
     <MESSAGE value="香港一日游  修改图片地址换成国内对象存储" />
     <MESSAGE value="更换模版" />
     <MESSAGE value="更新代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新代码" />
+    <MESSAGE value="更换" />
+    <option name="LAST_COMMIT_MESSAGE" value="更换" />
   </component>
 </project>
